@@ -3,7 +3,11 @@ title: "Reproducible Research"
 output: html_document
 ---
 
+<<<<<<< HEAD
       It is now possible to collect a large amount of data about personal movement using activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up. These type of devices are part of the “quantified self” movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. But these data remain under-utilized both because the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data.
+=======
+      It is now possible to collect a large amount of data about personal movement using activity monitoring devices such as a Fitbit, Nike Fuelband, or Jawbone Up. These type of devices are part of the â€œquantified selfâ€ movement â€“ a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. But these data remain under-utilized both because the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data.
+>>>>>>> 793b7c64c0385895ca3858b2cf85d78442f8ec3e
 
       This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include 
 
@@ -93,7 +97,11 @@ median(Steps_noNA$steps)
 *Mean remained the same because using mean of intervals for missing values does not change the total mean for a single interval.The value of median is slightly different because it completely depends on where the NAs occured.*
 
 ##Are there differences in activity patterns between weekdays and weekends?
+<<<<<<< HEAD
 1. Create a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
+=======
+1. Create a new factor variable in the dataset with two levels â€“ â€œweekdayâ€ and â€œweekendâ€ indicating whether a given date is a weekday or weekend day.
+>>>>>>> 793b7c64c0385895ca3858b2cf85d78442f8ec3e
 
 ```{r, echo=TRUE}
 activity_noNAs$date <- as.Date(activity_noNAs$date, "%Y-%m-%d")
